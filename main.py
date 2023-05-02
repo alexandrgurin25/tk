@@ -30,7 +30,7 @@ groups = ["KVBO-02", "KVBO-01", "KVBO-03", "KVBO-04", "KVBO-05", "KVBO-06", "KVB
 
 # Функция для сортировки списка групп по номеру
 def sort_groups(groups):
-    return sorted(groups, key=lambda x: int(x.split("-")[1]))
+    return sorted(groups)
 
 # Упорядочиваем группы
 sorted_groups = sort_groups(groups)
